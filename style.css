@@ -1,0 +1,29 @@
+header {
+    display: block;
+    justify-content: center;
+    display: flex;
+
+}
+.container {
+    width: 50%;;
+    margin: auto;
+    text-align: center;
+}
+
+#form-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#subheader-form {
+    text-align: center;
+    display: block;
+    color: gray;
+    font-size: 0.3cm;
+    opacity: 0.5; 
+}
+
+h1 {
+    font-family: cursive;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pengajuan Lamaran</title>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <div class="form-header">
+                <table>
+                    <tr>
+                        <td>
+                            <h3>Pengajuan Lamaran</h3>
+
+                        </td>
+                        <td>
+                            <img height="100" src="danny.png" alt="gambar pak danny">
+                        </td>
+                        <td>
+                            <p id="subheader-form">
+                                Isi form di bawah ini dengan baik dan benar sesuai dengan pekerjaan yang Anda lamar.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </header>
+
+        <hr>
+
+        <fieldset>
+            <legend>Form Application</legend>
+            <form action="">
+
+                <div class="form-group">
+
+                    <table align="center" border="0">
+                        <tr>
+                            <td align="left">
+                                <label for="nama-lengkap">Nama Lengkap <span style="color: red;">*</span></label>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td align="left">
+                                <input type="text" id="nama-lengkap" placeholder="Nama depan" required>
+                            </td>
+                            <td>
+                                <input type="text" id="nama-belakang" placeholder="Nama belakang" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="left">
+                                <label for="tanggal-lahir">Tanggal Lahir <span style="color: red;">*</span></label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="left">
+                                <input type="date" id="tanggal-lahir" required>  
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="left">
+                                <label for="email">E-mail <span style="color: red;">*</span></label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="left">
+                                <input type="email" id="email" placeholder="mail@example.com"  required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="left">
+                                <label for="nomor-telepon">Nomor Telepon <span style="color: red;">*</span></label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="left">
+                                <input type="tel" id="nomor-telepon" pattern="^(\+62|62|0)8[1-9][0-9]{6,9}$" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="left">
+                                <label for="cv">CV <span style="color: red;">*</span></label>
+                            </td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="file" id="cv" accept="pdf" required>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td align="left">
+                                <label for="portofolio">Portofolio</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="file" id="portofolio">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="surat-lamaran"></label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="left">
+                                <label for="surat-lamaran">Surat Lamaran</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="file" id="surat-lamaran">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="left">
+                                <input type="submit" value="Apply">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                
+            </form>
+        </fieldset>
+    </div>
+
+</body>
+</html>
