@@ -90,6 +90,33 @@ main {
   font-weight: bolder;
   font-size: x-large;
 }
+.boxkerja{
+  align-items: center;
+  background: rgb(255, 255, 255);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.judulkerja {
+  display: fixed;
+  justify-content: center;
+  align-items: center;
+}
+.goto {
+  display: flex;
+  align-items: center;
+}
+.goto img {
+  width: 45px;
+  height: auto;
+}
+.goto p{
+  font-size: 20px;
+  font-weight: bold;
+  margin:0%;
+}
+
 footer {
   text-align: center;
   padding: 15px;
