@@ -85,11 +85,10 @@ main {
   background-color: white; /* Biar lebih terlihat */
   min-height: 100vh;
 }
-.welcome{
+.welcome {
   text-align: center;
   font-weight: bolder;
-  font-size:x-large;
-  font-family:  ;
+  font-size: x-large;
 }
 footer {
   text-align: center;
