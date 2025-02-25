@@ -18,7 +18,7 @@
       <nav>
         <ul type="none">
           <li><a href="index.html">Home</a></li>
-          <li><a href="">Login</a></li>
+          <li><a href="login.html">Login</a></li>
         </ul>
         <a href="index.html">
           <img
@@ -29,23 +29,40 @@
         </a>
       </nav>
     </header>
-    <hr />
     <main>
-      <div class="welcome">Welcome, user</div>
-      <div class="boxkerja">
-        <div class="judulkerja">
-          <div class="goto">
-            <img src="src/img/goto-logo.png" alt="goto" />
-            <p>GoTo</p>
+      <section id="search">
+        <input type="text" id="pekerjaan" placeholder="Cari pekerjaan..." />
+        <select id="sel_kategori">
+          <option id="0" value="0">Kategori</option>
+          <option value="1">IT</option>
+          <option value="2">Keuangan</option>
+          <option value="3">Pendidikan</option>
+          <option value="4">Kesehatan</option>
+        </select>
+      </section>
+      <section id="welcome">
+        <div class="welcome">Welcome, user</div>
+      </section>
+      <section id="kerja">
+        <div class="boxkerja">
+          <div class="judulkerja">
+            <div class="goto">
+              <img src="src/img/goto-logo.png" alt="goto" />
+              <p>GoTo</p>
+            </div>
+            <h2>UI/UX Designer</h2>
           </div>
-          <h2>UI/UX Designer</h2>
+          <p>
+            Gedung Pasaraya Blok M, lantai 6-7, Jl. Iskandarsyah II No.2,
+            Jakarta
+          </p>
+          <p>Fulltime</p>
+          <p>Rp. 15.000.000/bulan</p>
+          <a href="detail_pekerjaan.html">
+            <p>Klik untuk informasi lebih lengkap</p>
+          </a>
         </div>
-        <p>
-          Gedung Pasaraya Blok M, lantai 6-7, Jl. Iskandarsyah II No.2, Jakarta
-        </p>
-        <p>Fulltime</p>
-        <p>Rp. 15.000.000/bulan</p>
-      </div>
+      </section>
     </main>
     <footer>
       <p>&copy 2025 Cari Kerja.com</p>
