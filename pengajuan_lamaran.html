@@ -5,40 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Pengajuan Lamaran</title>
+
 </head>
 <body>
-    
+
     <div class="container">
         <header>
             <div class="form-header">
-                <table>
-                    <tr>
-                        <td>
-                            <h3>Pengajuan Lamaran</h3>
-
-                        </td>
-                        <td>
-                            <img height="100" src="danny.png" alt="gambar pak danny">
-                        </td>
-                        <td>
-                            <p id="subheader-form">
-                                Isi form di bawah ini dengan baik dan benar sesuai dengan pekerjaan yang Anda lamar.
-                            </p>
-                        </td>
-                    </tr>
-                </table>
+                <h2>Pengajuan Lamaran</h2>
+                <br>
+                <span id="subheader-form">
+                    Isi form di bawah ini sebelum submit
+                </span>
             </div>
         </header>
 
         <hr>
+        <br>
 
-        <fieldset>
-            <legend>Form Application</legend>
-            <form action="">
+        <form action="">
+        <fieldset class="biodata">
+            <legend>Biodata</legend>
 
-                <div class="form-group">
-
-                    <table align="center" border="0">
+                    <table border="0">
                         <tr>
                             <td align="left">
                                 <label for="nama-lengkap">Nama Lengkap <span style="color: red;">*</span></label>
@@ -49,6 +38,9 @@
                             <td align="left">
                                 <input type="text" id="nama-lengkap" placeholder="Nama depan" required>
                             </td>
+                        </tr>
+
+                        <tr>
                             <td>
                                 <input type="text" id="nama-belakang" placeholder="Nama belakang" required>
                             </td>
@@ -89,7 +81,14 @@
                                 <input type="tel" id="nomor-telepon" pattern="^(\+62|62|0)8[1-9][0-9]{6,9}$" required>
                             </td>
                         </tr>
+                    </table>
+        </fieldset>
 
+        <br>
+
+        <fieldset class="files">
+            <legend>Files</legend>
+            <table>
                         <tr>
                             <td align="left">
                                 <label for="cv">CV <span style="color: red;">*</span></label>
@@ -132,18 +131,15 @@
                                 <input type="file" id="surat-lamaran">
                             </td>
                         </tr>
-
-                        <tr>
-                            <td align="left">
-                                <input type="submit" value="Apply">
-                            </td>
-                        </tr>
-                    </table>
-                </div>
+                    </table> 
+            </fieldset>
+            
+            <!-- BUTTON HERE --> 
+            <input id="btn" type="submit" value="Apply">
                 
             </form>
-        </fieldset>
     </div>
+
 
 </body>
 </html>
