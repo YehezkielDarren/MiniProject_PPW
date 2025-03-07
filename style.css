@@ -18,6 +18,7 @@ header {
     padding: 5px 20px 20px 20px;
     border-style: none;
     box-shadow: 4px 4px 7px black;
+    display: flex;
 }
 
 
@@ -82,13 +83,11 @@ input:hover {
     border: black;
 }
 
-.biodata { /*fieldset input biodata*/
+.biodata, .files { /*fieldset input biodata*/
     background-color: #FCFCFD;
+    width: 200px;
 }
 
-.files { /*fieldset input fiels */
-    background-color: #FCFCFD;
-}
 
 .files input {
     border: 0px; 
