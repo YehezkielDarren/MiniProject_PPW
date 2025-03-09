@@ -1,5 +1,14 @@
 html > body {
-    background-color: grey;
+    background-color: rgb(0, 179, 255);
+}
+
+.biodata tr:nth-child(2n + 1) {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.biodata tr:nth-child(1) {
+    margin-bottom: -5px;
 }
 
 header {
@@ -23,6 +32,8 @@ header {
 
 
 input {
+    display: block;
+    font-family: Plus Jakarta Sans;
     background: transparent;
     border: 1px solid black;
     border-top-right-radius: 5px;
@@ -32,6 +43,14 @@ input {
     padding: 2px 5px;
     /* padding: 3px 30px 0 3px; */
     margin: 0 20px;
+}
+
+.header-box {
+    border: 6px solid rgb(0, 179, 255); 
+    border-top: none;
+    border-radius: 15% 15% 15% 15%;
+    padding: 4px;
+    box-shadow: 2px 2px 3px 0px;
 }
 
 .form-header {
@@ -52,7 +71,7 @@ input {
 }
 
 fieldset {
-    border: 2px solid black;    
+    border: 2px solid rgb(0, 179, 255);    
     border-radius: 8px; 
     padding: 20px; 
     margin-bottom: 20px; 
@@ -61,7 +80,7 @@ fieldset {
 }
 
 fieldset > legend {
-    background-color: black;
+    background-color: rgb(0, 179, 255);
     color: #FCFCFD;
     font-weight: bold;
     border-radius: 5px;
@@ -79,9 +98,11 @@ input:hover {
     scale: 1.027;
 }
 
+
 .biodata input:active {
     border: black;
 }
+
 
 .biodata, .files { /*fieldset input biodata*/
     background-color: #FCFCFD;
@@ -90,13 +111,21 @@ input:hover {
 
 
 .files input {
-    border: 0px; 
+    border: 1px solid #ccc;
+    padding: 5px;
     margin-bottom: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Plus Jakarta Sans;
+    font-size: small;
     cursor: pointer;
     position: relative;
     width: 200px;
 }
+
+.files input:focus {
+    border-color: #00b3ff;
+    outline: none;
+}
+
 
 input::file-selector-button {
     border: thin solid grey;
@@ -106,7 +135,10 @@ input::file-selector-button {
 }
 
 #btn {
-    background-color: #FCFCFD;
+    width: 20%;
+    border-color: rgb(0, 179, 255) ;
+    margin: auto;
+    border-width: 2px;
     font-family: "JetBrains Mono",monospace;
     margin-top: 30px;
     padding: 5px;
@@ -115,8 +147,8 @@ input::file-selector-button {
 }
 
 #btn:hover {
-    box-shadow: crimson 2px 2px; 
-    border: 2px solid rgba(243, 0, 211, 0.486);
+    box-shadow: rgb(0, 179, 255) 2px 2px; 
+    border: 2px solid rgb(0, 179, 255);
     transform: scale(1.183);
 }
 
@@ -133,3 +165,7 @@ h1 {
     color: aqua;
 }
 
+img {
+    width: 8%;
+    display: inline-block;
+}

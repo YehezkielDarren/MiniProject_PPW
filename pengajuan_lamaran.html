@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Pengajuan Lamaran</title>
-
-</head>
+    <script src="j.js"></script>
+ </head>
 <body>
 
     <div class="container">
-        <header>
+        <header class="header-box">
             <div class="form-header">
-                <h2>Pengajuan Lamaran</h2>
+                <h2><legend>Pengajuan Lamaran </legend></h2>
                 <br>
-                <span id="subheader-form">
-                    Isi form ini sebelum submit
-                </span>
+                <p id="subheader-form">
+                    Isi form di bawah ini sebelum submit
+                </p>
             </div>
         </header>
 
@@ -30,7 +30,7 @@
                     <table border="0">
                         <tr>
                             <td align="left">
-                                <label for="nama-lengkap">Nama Lengkap <span style="color: red;">*</span></label>
+                                <label for="nama-lengkap"><img src="img/profile-icon.png"> Nama Lengkap <span style="color: red;">*</span></label>
                             </td>
                         </tr>
                         
@@ -48,7 +48,7 @@
 
                         <tr>
                             <td align="left">
-                                <label for="tanggal-lahir">Tanggal Lahir <span style="color: red;">*</span></label>
+                                <label for="tanggal-lahir"><img src="img/date-i.png" alt=""> Tanggal Lahir <span style="color: red;">*</span></label>
                             </td>
                         </tr>
 
@@ -60,7 +60,7 @@
 
                         <tr>
                             <td align="left">
-                                <label for="email">E-mail <span style="color: red;">*</span></label>
+                                <label for="email"><img src="img/email-icon.png" alt=""> E-mail <span style="color: red;">*</span></label>
                             </td>
                         </tr>
 
@@ -72,13 +72,13 @@
 
                         <tr>
                             <td align="left">
-                                <label for="nomor-telepon">Nomor Telepon <span style="color: red;">*</span></label>
+                                <label for="nomor-telepon"><img src="img/phone-i.png" alt=""> Nomor Telepon <span style="color: red;">*</span></label>
                             </td>
                         </tr>
 
                         <tr>
                             <td align="left">
-                                <input type="tel" id="nomor-telepon" pattern="^(\+62|62|0)8[1-9][0-9]{6,9}$" required>
+                                <input type="tel" id="nomor-telepon" pattern="^(\+62|62|0)8[1-9][0-9]{6,9}$" placeholder="08xxxxxxxxx" required>
                             </td>
                         </tr>
                     </table>
