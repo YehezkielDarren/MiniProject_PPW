@@ -1,5 +1,5 @@
 html > body {
-    background-color: rgb(0, 179, 255);
+    background-color: #eeeeee;
 }
 
 .biodata tr:nth-child(2n + 1) {
@@ -168,4 +168,80 @@ h1 {
 img {
     width: 8%;
     display: inline-block;
+}
+
+.footer-col {
+    width: 25%;
+}
+
+.footer-col ul {
+    padding-left: 0;
+}
+
+.footer-col ul:first-child {
+    font-size: small;
+    padding-left: 50px;
+
+}
+
+.footer-row .footer-col img {
+    /* visibility: hidden; */
+    padding: 5px 0;
+    margin-left: 5px;
+    scale: 3;
+}
+
+.footer-col ul li {
+    list-style-type: none;
+    align-items: flex-start;
+}
+
+.footer-row > .footer-col:first-of-type {
+    /* margin-right: 20%; */
+    padding-right: 20%;
+}
+
+.footer-row {
+    display: flex;
+    line-height: 1.25;
+}
+
+.footer-col h4{
+    font-family: "Poppins", 'Courier New', Courier, monospace;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: #eeeeee;
+    font-style: italic;
+}
+
+.footer-col ul li a:hover {
+    text-decoration:underline;
+    color: gold;
+    i {
+        padding-left: 3px;
+    }
+}
+
+.footer-row > .footer-col:last-of-type ul li a, .footer-row > .footer-col:nth-child(3) ul li:nth-child(1) a {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal ;
+}
+
+footer {
+    margin: auto;
+    margin-top: 25px;
+    background-color: #24262b;
+    color: #eeeeee;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    margin-bottom: 0;
+
+}
+
+#xnicdx:hover {
+    color: gold;
+    cursor: context-menu;
+    scale: 1.03;
 }
