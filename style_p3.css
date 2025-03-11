@@ -47,16 +47,14 @@ input {
 
 .header-box {
     border: 6px solid rgb(0, 179, 255); 
-    border-top: none;
+    border-right: none;
+    border-bottom: none;
     border-radius: 15% 15% 15% 15%;
     padding: 4px;
     box-shadow: 2px 2px 3px 0px;
 }
 
 .form-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
     line-height: 0.03;
     font-family: "JetBrains Mono",monospace;
@@ -65,7 +63,6 @@ input {
 
 #subheader-form {
     text-align: center;
-    display: grid;
     font-size: 0.3cm;
     opacity: 0.5; 
 }
@@ -101,6 +98,7 @@ input:hover {
 
 .biodata input:active {
     border: black;
+    background-color: #70d2fc;
 }
 
 

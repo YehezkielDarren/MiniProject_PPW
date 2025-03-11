@@ -12,6 +12,11 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         let allFilled = true;
+        if (debug) {
+            inputs.forEach(input => {
+                console.log(input);
+            })
+        }
 
         // Check if all required fields are filled
         inputs.forEach(input => {
