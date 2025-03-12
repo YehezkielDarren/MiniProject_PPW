@@ -3,40 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <title>Home - Cari Kerja.com</title>
   </head>
   <body>
     <header>
       <div class="logo">
         <img src="src/img/LogoHeader1.png" alt="logokerja" />
-        <a
-          >Cari Kerja.
-          <div class="small">com</div></a
-        >
+        <a>Cari Kerja. <span class="small">com</span></a>
       </div>
-      <section id="search">
-        <div class="search">
-          <img
-            src="https://img.icons8.com/?size=100&id=42848&format=png&color=000000"
-            alt="search"
-          />
-          <input type="text" id="pekerjaan" placeholder="Cari pekerjaan..." />
-        </div>
-        <select id="sel_kategori">
-          <option id="0" value="0">Kategori</option>
-          <option value="1">IT</option>
-          <option value="2">Keuangan</option>
-          <option value="3">Pendidikan</option>
-          <option value="4">Kesehatan</option>
-        </select>
-      </section>
       <nav>
         <ul type="none">
           <li><a href="index.html">Home</a></li>
+          <span class="separator"></span>
           <li><a href="login.html">Login</a></li>
         </ul>
-        <a href="index.html">
+        <a href="login.html">
           <img
             src="src/img/ProfilePicture.jpg"
             alt="profilepict"
@@ -46,39 +28,39 @@
       </nav>
     </header>
     <main>
+      <section class="search-filter">
+        <div class="search-container">
+          <form action="#" method="get">
+            <div class="input">
+              <input type="text" placeholder="Judul Pekerjaan" required />
+              <button type="submit">Cari</button>
+            </div>
+          </form>
+        </div>
+        <div class="filter-container">
+          <select id="job-type" class="custom-select">
+            <option value="">Job Type</option>
+            <option value="full-time">Full-time</option>
+            <option value="Part-time">Part-time</option>
+          </select>
+          <select id="kategori" class="custom-select">
+            <option id="0" value="0">Kategori</option>
+            <option value="1">IT</option>
+            <option value="2">Keuangan</option>
+            <option value="3">Pendidikan</option>
+            <option value="4">Kesehatan</option>
+          </select>
+          <select id="lokasi" class="custom-select">
+            <option value="">Lokasi</option>
+            <option value="jogja">Yogyakarta</option>
+            <option value="jakarta">Jakarta</option>
+            <option value="solo">Solo</option>
+            <option value="makassar">Makassar</option>
+          </select>
+        </div>
+      </section>
       <section id="welcome">
         <div class="welcome">Welcome, user</div>
-      </section>
-      <section id="kerja">
-        <div class="boxkerja">
-          <div class="logo-company">
-            <img src="src/img/goto-logo.png" alt="goto" />
-            <p>GoTo</p>
-          </div>
-          <div class="judulkerja">
-            <img
-              src="https://img.icons8.com/?size=100&id=YPUvBdTk9pTZ&format=png&color=000000"
-              alt="logo-ui-ux"
-            />
-            <h2>UI/UX Designer</h2>
-          </div>
-          <div class="lokasi">
-            <img
-              src="https://img.icons8.com/?size=100&id=Udrc3LA8OPbn&format=png&color=000000"
-              alt=""
-            />
-            <p>Gedung Pasaraya Blok M, lantai 6-7, Jl. Iskandarsyah II No.2, Jakarta</p>
-          </div>
-          <div class="waktu">
-            <p>Fulltime</p>
-          </div>
-          <div class="gaji">
-            <p>Rp. 15.000.000/bulan</p>
-          </div>
-          <a href="detail_pekerjaan.html">
-            <p>Klik untuk informasi lebih lengkap</p>
-          </a>
-        </div>
       </section>
     </main>
     <footer>
