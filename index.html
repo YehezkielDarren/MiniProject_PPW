@@ -27,46 +27,85 @@
         </a>
       </nav>
     </header>
+    <section class="search-filter">
+      <div class="search-container">
+        <form action="#" method="get">
+          <div class="input">
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Judul Pekerjaan"
+              required
+            />
+            <button type="submit" class="search-button">Cari</button>
+          </div>
+        </form>
+      </div>
+      <div class="filter-container">
+        <select id="job-type" class="custom-select">
+          <option value="">Job Type</option>
+          <option value="full-time">Full-time</option>
+          <option value="Part-time">Part-time</option>
+        </select>
+        <select id="kategori" class="custom-select">
+          <option id="0" value="0">Kategori</option>
+          <option value="1">IT</option>
+          <option value="2">Keuangan</option>
+          <option value="3">Pendidikan</option>
+          <option value="4">Kesehatan</option>
+        </select>
+        <select id="lokasi" class="custom-select">
+          <option value="">Lokasi</option>
+          <option value="jogja">Yogyakarta</option>
+          <option value="jakarta">Jakarta</option>
+          <option value="solo">Solo</option>
+          <option value="makassar">Makassar</option>
+        </select>
+        <button type="submit" class="search-button">Cari</button>
+      </div>
+    </section>
     <main>
-      <section class="search-filter">
-        <div class="search-container">
-          <form action="#" method="get">
-            <div class="input">
-              <input
-                type="text"
-                class="search-input"
-                placeholder="Judul Pekerjaan"
-                required
-              />
-              <button type="submit" class="search-button">Cari</button>
-            </div>
-          </form>
+      <section id="welcome">
+        <div class="breadcrumb">
+          <p><a href="index.html">Home</a></p>
         </div>
-        <div class="filter-container">
-          <select id="job-type" class="custom-select">
-            <option value="">Job Type</option>
-            <option value="full-time">Full-time</option>
-            <option value="Part-time">Part-time</option>
-          </select>
-          <select id="kategori" class="custom-select">
-            <option id="0" value="0">Kategori</option>
-            <option value="1">IT</option>
-            <option value="2">Keuangan</option>
-            <option value="3">Pendidikan</option>
-            <option value="4">Kesehatan</option>
-          </select>
-          <select id="lokasi" class="custom-select">
-            <option value="">Lokasi</option>
-            <option value="jogja">Yogyakarta</option>
-            <option value="jakarta">Jakarta</option>
-            <option value="solo">Solo</option>
-            <option value="makassar">Makassar</option>
-          </select>
-          <button type="submit" class="search-button">Cari</button>
+        <div class="welcome">Welcome, user</div>
+      </section>
+      <section id="announcement-title">
+        <div class="announcement-title">
+          <p>Pengumuman 📢</p>
         </div>
       </section>
-      <section id="welcome">
-        <div class="welcome">Welcome, user</div>
+      <section class="announcement-container">
+        <div class="box-pengumuman">
+          <h3>Network Engineer</h3>
+          <h5>PT Sejahtra Technology</h5>
+        </div>
+        <div class="box-pengumuman">
+          <h3>QA Tester</h3>
+          <h5>GoTo - Gojek Tokopedia</h5>
+        </div>
+        <div class="box-pengumuman">
+          <h3>Front-end</h3>
+          <h5>PT Sejahtra Technology</h5>
+        </div>
+        <div class="box-pengumuman">
+          <h3>Network Engineer</h3>
+          <h5>PT Sejahtra Technology</h5>
+        </div>
+        <div class="box-pengumuman">
+          <h3>Network Engineer</h3>
+          <h5>PT Sejahtra Technology</h5>
+        </div>
+        <div class="box-pengumuman">
+          <h3>Network Engineer</h3>
+          <h5>PT Sejahtra Technology</h5>
+        </div>
+      </section>
+      <section class="box-container">
+        <div class="box-kerja">
+          <h3></h3>
+        </div>
       </section>
     </main>
     <footer>
