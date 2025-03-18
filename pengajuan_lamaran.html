@@ -8,8 +8,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Pengajuan Lamaran</title>
     <script src="j.js"></script>
+
+    <style>
+        .go_back {
+            width: 30%;
+    left: 0;
+    top: 5px;
+    position: sticky;
+  }
+        
+    </style>
  </head>
 <body>
+
+    <div class="go_back">
+        <a href="detail_pekerjaan.html">
+        <img src="/img/back_arrow.png" alt=""></a>
+    </div>
 
     <div class="container">
         <header class="header-box">
@@ -25,7 +40,7 @@
         <hr>
         <br>
 
-        <form action="">
+        <form action="berhasil.html">
         <fieldset class="biodata">
             <legend>Biodata</legend>
 
@@ -137,8 +152,9 @@
             </fieldset>
             
             <!-- BUTTON HERE --> 
-            <input id="btn" type="submit" value="Apply">
-                
+             <a href="berhasil.html">
+            <input id="btn" type="submit" value="Apply" >
+            </a> 
             </form>
     </div>
 
@@ -182,6 +198,5 @@
         </div>
     </div>
     </footer>
-
 </body>
 </html>
