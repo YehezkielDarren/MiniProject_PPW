@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="halaman_utama_style.css" />
+    <title>Home - Cari Kerja.com</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="src/img/LogoHeader1.png" alt="logokerja" />
+        <a>Cari Kerja. <span class="small">com</span></a>
+      </div>
+      <nav>
+        <ul type="none">
+          <li><a href="index.html">Home</a></li>
+          <span class="separator"></span>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+        <a href="login.html">
+          <img
+            src="src/img/ProfilePicture.jpg"
+            alt="profilepict"
+            class="profilepicture"
+          />
+        </a>
+      </nav>
+    </header>
+    <section class="search-filter">
+      <div class="search-container">
+        <form action="#" method="get">
+          <div class="input">
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Judul Pekerjaan"
+              required
+            />
+            <button type="submit" class="search-button">Cari</button>
+          </div>
+        </form>
+      </div>
+      <div class="filter-container">
+        <select id="job-type" class="custom-select">
+          <option value="">Job Type</option>
+          <option value="full-time">Full-time</option>
+          <option value="part-time">Part-time</option>
+          <option value="magang">Magang</option>
+        </select>
+        <select id="kategori" class="custom-select">
+          <option id="0" value="0">Kategori</option>
+          <option value="1">IT</option>
+          <option value="2">Keuangan</option>
+          <option value="3">Pendidikan</option>
+          <option value="4">Kesehatan</option>
+        </select>
+        <select id="lokasi" class="custom-select">
+          <option value="">Lokasi</option>
+          <option value="jogja">Yogyakarta</option>
+          <option value="jakarta">Jakarta</option>
+          <option value="solo">Solo</option>
+          <option value="makassar">Makassar</option>
+        </select>
+        <button type="submit" class="search-button">Cari</button>
+      </div>
+    </section>
+    <main>
+      <section id="welcome">
+        <div class="breadcrumb">
+          <p><a href="index.html">Home</a></p>
+        </div>
+        <div class="welcome">Welcome, <span class="username">user</span></div>
+      </section>
+      <section id="announcement-title">
+        <div class="announcement-title">
+          <p>Pengumuman 📢</p>
+        </div>
+      </section>
+      <section class="announcement-container">
+        <div class="box-pengumuman">
+          <h3>Network Engineer</h3>
+          <h4>PT Sejahtra Technology</h4>
+          <h5 class="status-kerja">Full-time</h5>
+          <h6 class="gaji">Rp. 15.000.000/bulan</h6>
+        </div>
+        <div class="box-pengumuman">
+          <h3>QA Tester</h3>
+          <h4>GoTo - Gojek Tokopedia</h4>
+          <h5 class="status-kerja">Part-time</h5>
+          <h6 class="gaji">Rp. 15.000.000/bulan</h6>
+        </div>
+        <div class="box-pengumuman">
+          <h3>Front-end Developer</h3>
+          <h4>Gul-gul Company</h4>
+          <h5 class="status-kerja">Full-time</h5>
+          <h6 class="gaji">Rp. 15.000.000/bulan</h6>
+        </div>
+        <div class="box-pengumuman">
+          <h3>Akuntan</h3>
+          <h4>PT Sritex Industri</h4>
+          <h5 class="status-kerja">Full-time</h5>
+          <h6 class="gaji">Rp. 10.000.000/bulan</h6>
+        </div>
+        <div class="box-pengumuman">
+          <h3>Dokter Hewan</h3>
+          <h4>Klinik Hewan Citra Medika</h4>
+          <h5 class="status-kerja">Full-time</h5>
+          <h6 class="gaji">Rp. 20.000.000/bulan</h6>
+        </div>
+        <div class="box-pengumuman">
+          <h3>Front-end Developer</h3>
+          <h4>PT Indogrosir</h4>
+          <h5 class="status-kerja">Magang</h5>
+          <h6 class="gaji">Rp. 1.000.000/bulan</h6>
+        </div>
+      </section>
+      <section class="box-container">
+        <div class="box-kerja">
+          <h3></h3>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy 2025 Cari Kerja.com</p>
+    </footer>
+  </body>
+</html>
