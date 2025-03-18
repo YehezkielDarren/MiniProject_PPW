@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+}
+/* Style the header */
+header {
+    background-color: #666;
+    padding: 2px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+  
+  /* Create two columns/boxes that floats next to each other */
+  nav {
+    float: left;
+    width: 30%;
+    background: #ccc;
+    padding: 20px;
+    padding-bottom: 15%;
+  }
+
+  .judul-kerja {
+    float: left;
+    width: 30%;
+    background: #ccc;
+    padding: 20px;
+    padding-bottom: 15%;
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  
+  article {
+    float: left;
+    padding: 10px;
+    padding-bottom: 53px !important;
+    width: 50%;
+    background-color: #f1f1f1;
+    padding-right: 16% !important;/* only for demonstration, should be removed */
+  }
+
+  body section {
+    /* margin-bottom: 50px;
+    margin-top: 5%; */
+    /* padding: 0 10px; */
+  }
+
+  .artikel-detail {
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(172, 171, 171);
+  }
+
+  .artikel-detail .judul-pekerjaan {
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  button {
+    background-color: yellow;
+    padding: 4px;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 2px;
+  }
+
+  .section-content {
+    display: flex;
+    /* padding: 0 20px; */
+  }
+
+
+  .judul-kerja img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+  }
+
+  .Tombol {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Tombol button {
+    background-color: blue;
+    color: white;
+    padding: 4px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 2px;
+  }
+
+  .Tombol button:hover {
+    background-color: white;
+    color: blue;
+  }
+
+  .Tombol a{
+    display: flex;
+    text-decoration: none;
+  }
+  
+  .alamat{
+    font-weight: bold;
+  }
+
+  .gaji{
+    margin-top: 10px;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+  
+  .gaji-harga{
+    background-color: yellow;
+    padding: 4px;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 2px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+/* Footer */
+.footer-col {
+    width: 40%;
+    height: 11rem;
+    margin-top: 30px;
+}
+
+.footer-col ul {
+    padding-left: 0;
+}
+
+.footer-col ul:first-child {
+    font-size: small;
+    padding-left: 50px;
+
+}
+
+.footer-row .footer-col img {
+    /* visibility: hidden; */
+    padding: 5px 0;
+    margin-left: 5px;
+    scale: 1;
+    width: 70px;
+}
+
+.footer-col ul li {
+    list-style-type: none;
+    align-items: flex-start;
+}
+
+.footer-row > .footer-col:first-of-type {
+    /* margin-right: 20%; */
+    padding-right: 5%;
+}
+
+.footer-row {
+    display: flex;
+    line-height: 1.25;
+}
+
+.footer-col h4{
+    font-family: "Poppins", 'Courier New', Courier, monospace;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: #eeeeee;
+    font-style: italic;
+}
+
+.footer-col ul li a:hover {
+    text-decoration:underline;
+    color: gold;
+    i {
+        padding-left: 3px;
+    }
+}
+
+.footer-row > .footer-col:last-of-type ul li a, .footer-row > .footer-col:nth-child(3) ul li:nth-child(1) a {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal ;
+}
+
+footer {
+    margin: auto;
+    background-color: #24262b;
+    color: #eeeeee;
+    margin-bottom: 0;  
+    clear: both;
+
+
+}
+
+#xnicdx:hover {
+    color: gold;
+    cursor: context-menu;
+    scale: 1.03;
+}
