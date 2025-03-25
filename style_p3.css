@@ -1,5 +1,5 @@
 html > body {
-    background-color: #eeeeee;
+    background-color: #fcfcfc;
 }
 
 .biodata tr:nth-child(2n + 1) {
@@ -22,12 +22,16 @@ header {
     width: 50%;
     margin: auto;
     text-align: center;
-    background-color: #FCFCFD;
+    background-color: #24262b;
     border-radius: 8px;
     padding: 5px 20px 20px 20px;
     border-style: none;
-    box-shadow: 4px 4px 7px black;
+    box-shadow: 4px 4px 7px 2px gold;
     display: flex;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 3%;
+    border-style: double;
+    border-color: gold;
 }
 
 
@@ -47,11 +51,21 @@ input {
 }
 
 .header-box {
-    border: 6px solid #766;
-    border-top: none;
-    border-radius: 15% 15% 15% 15%;
-    padding: 4px;
-    box-shadow: 2px 2px 3px 0px;
+    border: 6px solid;
+    /* border-top: none;
+    border-radius: 15% 15% 15% 15%; */
+    padding: 1em;
+    background-color: white;
+    box-shadow: 2px 2px 10px 5px gold;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-left-style: double;
+    border-right-style: double;
+    border-top-color: green;
+    border-bottom-color: red;
+    border-left-color: #00b3ff;
+    border-right-color: #00b3ff;
+    color: #24262b;
 }
 
 .form-header {
@@ -69,6 +83,7 @@ input {
     display: grid;
     font-size: 0.3cm;
     opacity: 0.5; 
+    color: #242424;
 }
 
 fieldset {
@@ -77,18 +92,33 @@ fieldset {
     padding: 20px; 
     margin-bottom: 20px; 
     background-color: #FCFCFD; 
-    box-shadow: 2px 2px 3px 0px;
+    box-shadow: 2px 2px 3px 2px gold;
+    border-left-style: double;
+    border-right-style: double;
+    border-top-color: green;
+    border-bottom-color: red;
+    border-left-color: #00b3ff;
+    border-right-color: #00b3ff;
 }
 
 fieldset > legend {
-    background-color: #666;
-    color: #FCFCFD;
+    border: 2px solid;
+    background-color: #FCFCFD;
+    color: #24262b;
     font-weight: bold;
     border-radius: 5px;
     padding: 5px 25px;
     cursor: crosshair;
     box-shadow: 2px 2px 2px black;
+    border-left-style: double;
+    border-right-style: double;
+    border-top-color: green;
+    border-bottom-color: red;
+    border-left-color: #00b3ff;
+    border-right-color: #00b3ff;
 
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
 }
 
 input:focus {
@@ -137,20 +167,24 @@ input::file-selector-button {
 
 #btn {
     width: 20%;
-    border-color: crimson;
+    background-color: white;
+    border-color: gold;
     margin: auto;
-    border-width: 2px;
+    border-width: 3px;
     font-family: "JetBrains Mono",monospace;
     margin-top: 30px;
     padding: 5px;
     cursor: pointer;
     border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 2px 2px 1px 1px gold;
 }
 
 #btn:hover {
-    box-shadow: crimson 2px 2px; 
-    border: 2px solid crimson;
+    box-shadow: gold 2px 2px; 
+    border: 2px solid gold;
     transform: scale(1.183);
+    text-decoration-line: underline;
 }
 
 #btn:active {
