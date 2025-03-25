@@ -43,6 +43,7 @@ input {
     padding: 2px 5px;
     /* padding: 3px 30px 0 3px; */
     margin: 0 20px;
+    width: 80%;
 }
 
 .header-box {
@@ -244,4 +245,8 @@ footer {
     color: gold;
     cursor: context-menu;
     scale: 1.03;
+}
+
+.biodata input[type="date"] {
+    width: 100%
 }
