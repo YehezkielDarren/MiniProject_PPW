@@ -223,17 +223,17 @@ main #welcome {
 .box-pengumuman h5 {
   color: #6a6a6a;
 }
-.urgent-box{
+.urgent-box {
   background-color: red;
   padding: 2px 5px;
   display: inline-block;
   border-radius: 3px;
   margin-bottom: 10px;
 }
-.urgent{
+.urgent {
   font-weight: bold;
   font-size: 10px;
-  color:  #f3f2f1;
+  color: #f3f2f1;
 }
 /* Container */
 
@@ -333,6 +333,19 @@ main #welcome {
 .internship {
   background: #3498db;
 }
+.IT {
+  background-color: #24262b;
+}
+.pendidikan {
+  background-color: aqua;
+  color: #171719;
+}
+.kesehatan {
+  background-color: brown;
+}
+.keuangan {
+  background-color: cadetblue;
+}
 .btn-detail {
   display: inline-flex;
   align-items: center;
@@ -349,14 +362,13 @@ main #welcome {
 .btn-detail:hover {
   color: #f3f2f1;
   background-color: #27ae60;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .btn-detail img {
   width: 20px; /* Ukuran ikon lebih kecil */
   height: auto;
 }
-
 
 /* Responsiveness */
 @media (min-width: 768px) {
