@@ -7,13 +7,14 @@
     <title>Login</title>
     <link rel="stylesheet" href="login_style.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-
+    <link rel="icon" type="image/png" href="apeni.jpg">
+<!-- 
     <script>
         function checkLogin() {
             event.preventDefault();
             // Username dan password yang benar
-            var validUsername = "admin";"user";
-            var validPassword = "sandi8765";"12345";
+            var validUsername = "admin";
+            var validPassword = "sandi8765";
 
 
             // Ambil input dari form
@@ -22,13 +23,13 @@
 
             // Cek apakah sesuai
             if (username === validUsername && password === validPassword) {
-                alert("Login berhasil!");
+                // alert("Login berhasil!");
                 window.location.href = "hal1.html";// Ganti dengan halaman tujuan
             } else {
                 alert("Username atau password salah!");
             }
         }
-    </script>
+    </script> -->
 </head>
 
 
@@ -39,8 +40,7 @@
     <br>
      <main>
         <div class="wrapper" >
-            <form onsubmit="checkLogin(event)">
-
+            <form action="hal1.html">
                 <h1>Login</h1>
 
                 <div class="input-box" >
@@ -53,64 +53,21 @@
                     <i class='bx bx-lock-alt'></i>              
                 </div>
 
-                <div class="remember-forgot">
+                <!-- <div class="remember-forgot">
                     <label for="">
                         <input type="checkbox" name="" id="">Remember me?
                     </label>
                     <a href="hal1.html">Forgot password</a>
-                </div>
+                </div> -->
 
-                <a href="halaman_utama.html">
-                <button type="submit" class="btn" onclick="checkLogin()"> Login</button>
-                </a>
+                <button type="submit" class="btn"> Login</button>
 
-                <div class="register-link">
+                <!-- <div class="register-link">
                     <p>Dont have account? <a href="hal2.html">Regis</a></p>
-                </div>
+                </div> -->
             </form> 
         </div>
      </main>
 
-    <!-- <main>
-    <form onsubmit="checkLogin(event);">
-        
-     <table align="center">
-        <tr>
-            <td>
-                login Wak
-            </td>    
-        </tr>
-        
-        <tr>
-            <td>
-            <div>
-                <label for="username">username:</label>
-                <input type="username" name="username" id="username" required="">
-            </div>
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                <div>
-                        <label for="password">Password:</label>
-                        <input type="password" name="password" id="password"  maxlength="8" required="">
-                </div>
-            </td>
-        </tr>
-
-        <tr>
-            <td align="left">
-                 <button type="submit">Login</button>
-                </a>
-             </td>
-        </tr>   
-        
-        
-    
-     </table>
-
-    </form>
-    </main> -->
 </body>
 </html>
