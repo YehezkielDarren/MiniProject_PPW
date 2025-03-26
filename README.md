@@ -7,4 +7,5 @@
 |18   |	71231061 	|   Syendhi Reswara. S |
 
 ![Alt mmm](https://github.com/YehezkielDarren/MiniProject_PPW/blob/main/minippw_imk.png)
+![navigate pict](https://github.com/YehezkielDarren/MiniProject_PPW/blob/main/img/Screenshot%202025-03-26%20082605.png)
 ![Alt link_pdf](https://github.com/YehezkielDarren/MiniProject_PPW/blob/main/imk.pdf)
